@@ -1,0 +1,32 @@
+   0 mkdir -p /home/user/start && touch /home/user/start/1.txt
+   1 echo "Start" > /home/user/start/1.txt 
+   2 date >> /home/user/start/1.txt 
+   3 mkdir /opt/task && touch /opt/task/start.txt
+   4 cat /home/user/start/1.txt > /opt/task/start.txt 
+   5 cat /opt/task/start.txt 
+   6 ls -a
+   7 cat .ash_history | tail -4 >> /opt/task/start.txt 
+   8 cat /opt/task/start.txt 
+   9 cat bench.py | tail -4 >> /opt/task/start.txt 
+  10 cat hello.c | tail -4 >> /opt/task/start.txt 
+  11 cat hello.js | tail -4 >> /opt/task/start.txt 
+  12 cat readme.txt | tail -4 >> /opt/task/start.txt 
+  13 cat /opt/task/start.txt 
+  14 tree /tmp
+  15 ls
+  16 ls -a /tmp
+  17 ls -a /tmp/testnew
+  18 touch /tmp/testnew
+  19 rm /tmp/testnew
+  20 mkdir /tmp/testnew
+  21 tree /tmp
+  22 cp /opt/task /tmp/testnew/
+  23 cp /opt/task /tmp/testnew
+  24 cp -r /opt/task /tmp/testnew
+  25 tree /tmp
+  26 ls
+  27 cat readme.txt >> /tmp/testnew/task/start.txt 
+  28 cat /tmp/testnew/task/start.txt 
+  29 rm -r /opt/task
+  30 tree /opt
+  31 history > history.txt
